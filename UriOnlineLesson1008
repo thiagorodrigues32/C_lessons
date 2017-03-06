@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+    int num, hora;
+    double preco, salario;
+
+    scanf("%d", &num);
+    scanf("%d", &hora);
+    scanf("%lf", &preco);
+
+    salario = hora * preco;
+
+    printf("NUMBER = %d\nSALARY = U$ %.2lf\n", num, salario);
+
+    return 0;
+}
